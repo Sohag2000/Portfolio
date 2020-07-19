@@ -1,0 +1,188 @@
+*{margin:0; padding: 0;}
+@import url('https://fonts.googleapis.com/css2?family=Squada+One&display=swap');
+body{margin:0;}
+button a{text-decoration: none; color:black; font-size: 14px; padding: 5px 10px;}
+h1, h2, h3, h4, h5, h6{font-weight: bold; font-family: Arial, Tahoma;}
+p{font-family: Georgia; font-size: 15px;}
+.full_wrap{width: 100%;}
+.wrap{
+	width:1090px;
+	margin:0 auto;
+	display: block;
+}
+
+/**********Header***************/
+.header_bg{
+	background-color: #2c3e50;
+
+}
+#header{
+	padding: 20px 15px;
+	display: block;
+}
+#header h2{
+	font-size: 35px;
+	font-family: 'Squada One', cursive;
+}
+#header h2 a{
+	text-decoration: none;
+	color:#fff;
+	font-weight: bold;
+}
+#header p a{
+	text-decoration: none;
+	color:#e74c3c;
+	font-family: 'Squada One', cursive;
+}
+/**********Header end***************/
+
+/**********Menu Start***************/
+.menu_bg{
+	background-color: #b2bec3;
+}
+.menu_bg:after{
+	content: '';
+	clear: both;
+	display: block;
+}
+#nav ul{
+	margin: 0;
+	padding: 0;
+}
+#nav ul li{
+	list-style-type: none;
+	float: left;
+}
+#nav ul li a{
+	text-decoration: none;
+	color:black;
+	padding: 15px 30px;
+	display: block;
+	font-size: 15px;
+	font-family: Arial;
+	text-transform: uppercase;
+	transition: color 0.3s, background-color0.3s;
+}
+#nav ul li a:hover{
+	color:#fff;
+	background: #610B21;
+}
+/**********Menu end***************/
+
+
+/**********about section start***************/
+.about_bg{
+	background-color: #f9f9f9;
+	overflow: hidden;
+}
+#about_wrap{
+	margin-top: 100px;
+}
+#about_wrap h2{
+	font-family: Arial;
+	font-weight: bold;
+	font-size: 50px; 
+	text-align: center;
+	margin-bottom: 50px;
+	color: #11111f;
+} 
+#about_me1{
+	width:500px;
+	float: left;
+	margin-right: 50px;
+}
+#about_me1 img{
+	width: 422px;
+    height: 562px;
+    border:2px solid #8A0808;
+    border-radius: 10px;
+    margin-bottom: 100px;
+	transition: box-shadow 0.2s;
+
+}
+#about_me1 img:hover{
+	box-shadow: 3px 3px 20px #8A0808;
+}
+
+#about_me2{
+	width:540px;
+	float: left;
+	margin-top: 100px;
+}
+#about_me2 h4{
+	font-family: arial;
+	font-size: 23px;
+	font-weight: bold;
+	margin-bottom: 20px;
+	text-align: justify;
+	color: #11111f;
+}
+#about_me2 p{
+	font-family: arial;
+	font-size: 20px;
+	margin-bottom: 20px;
+	text-align: justify;
+	color: #2f2f2f;
+}
+
+
+
+
+
+
+
+
+/**********about section end***************/
+
+
+
+
+
+
+/**********content footer start***************/
+.content_footer_bg{
+	background-color: #424242;
+	overflow: hidden;
+	border-bottom: 2px solid #8A0808;
+}
+#content_footer{
+	margin-top: 40px;
+	
+}
+#content_footer h2{
+	font-family: Tahoma;
+	font-weight: bold;
+	font-size: 25px;
+	border-bottom: 2px solid #fff;
+	color:#fff;
+	width:300px;
+	margin-bottom: 20px;
+}
+#social_area li{
+	list-style-type: none;
+	float: left;
+}
+#social_area img{
+	width:40px;
+	margin-right: 10px;
+	margin-bottom: 40px; 
+}
+
+/**********content footer end***************/
+
+/**********footer Start***************/
+.footer_bg{
+	background-color: #424242;
+	overflow: hidden;
+}
+#footer p{
+	color:#f9f9f9;
+	padding: 20px;
+	text-align: center;
+	font-family: sans-serif;
+}
+
+
+
+
+/**********footer end***************/

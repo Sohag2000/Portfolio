@@ -1,0 +1,186 @@
+*{margin:0; padding: 0;}
+@import url('https://fonts.googleapis.com/css2?family=Squada+One&display=swap');
+body{margin:0;}
+button a{text-decoration: none; color:black; font-size: 14px; padding: 5px 10px;}
+h1, h2, h3, h4, h5, h6{font-weight: bold; font-family: Arial, Tahoma;}
+p{font-family: Georgia; font-size: 15px;}
+.full_wrap{width: 100%;}
+.wrap{
+	width:1090px;
+	margin:0 auto;
+	display: block;
+}
+
+/**********Header***************/
+.header_bg{
+	background-color: #2c3e50;
+
+}
+#header{
+	padding: 20px 15px;
+	display: block;
+}
+#header h2{
+	font-size: 35px;
+	font-family: 'Squada One', cursive;
+}
+#header h2 a{
+	text-decoration: none;
+	color:#fff;
+	font-weight: bold;
+}
+#header p a{
+	text-decoration: none;
+	color:#e74c3c;
+	font-family: 'Squada One', cursive;
+}
+/**********Header end***************/
+
+/**********Menu Start***************/
+.menu_bg{
+	background-color: #b2bec3;
+}
+.menu_bg:after{
+	content: '';
+	clear: both;
+	display: block;
+}
+#nav ul{
+	margin: 0;
+	padding: 0;
+}
+#nav ul li{
+	list-style-type: none;
+	float: left;
+}
+#nav ul li a{
+	text-decoration: none;
+	color:black;
+	padding: 15px 30px;
+	display: block;
+	font-size: 15px;
+	font-family: Arial;
+	text-transform: uppercase;
+	transition: color 0.3s, background-color0.3s;
+}
+#nav ul li a:hover{
+	color:#fff;
+	background: #610B21;
+}
+/**********Menu end***************/
+
+/**********Form Start***************/
+.form_bg{
+	background-color: #f9f9f9;;
+	overflow: hidden;
+}
+#form_wrap{
+	margin-top: 100px;
+	margin-bottom: 100px;
+}
+#form_wrap h1{
+	font-family: Tahoma;
+	font-size: 50px;
+	font-weight: bold;
+	text-align: center;
+	margin-bottom: 40px;
+	color: #11111f;
+}
+#form_wrap p{
+	font-family: Arial;
+	font-size: 18px;
+	margin-bottom: 10px;
+	color: #2f2f2f;
+}
+
+#name_email label{
+	font-family: Arial;
+	font-size: 20px;
+	font-weight: bold;
+	color: #2f2f2f;
+}
+
+#form_wrap textarea{
+	border:2px solid #000;
+	border-radius: 5px;
+	margin-top: 5px;
+}
+
+#name_email input{
+	border-radius: 15px;
+    width: 400px;
+    height: 35px;
+    margin-bottom: 20px;
+    margin-top: 5px;
+    border: 2px solid #000;
+}
+ input[type=submit]{
+	border-radius: 40px;
+    padding: 15px 30px;
+    background-color: #8A0808;
+    margin-top: 10px;
+    margin-left: 10px;
+    cursor: pointer;
+    font-size: 18px;
+    color: #fff;
+	border:1px solid gray;
+	box-shadow: 1px 1px 5px grey;
+    transition: color 0.3s, background-color 0.3s;
+}
+
+input[type="submit"]:hover {
+	background-color: gray;
+	color:#000;
+}
+	
+
+
+/**********Form end***************/
+
+
+/**********content footer start***************/
+.content_footer_bg{
+	background-color: #424242;
+	overflow: hidden;
+	border-bottom: 2px solid #8A0808;
+}
+#content_footer{
+	margin-top: 40px;
+	
+}
+#content_footer h2{
+	font-family: sans-serif;
+	font-weight: bold;
+	font-size: 25px;
+	border-bottom: 2px solid #fff;
+	color:#fff;
+	width:300px;
+	margin-bottom: 20px;
+}
+#social_area li{
+	list-style-type: none;
+	float: left;
+}
+#social_area img{
+	width:40px;
+	margin-right: 10px;
+	margin-bottom: 40px; 
+}
+
+/**********content footer end***************/
+
+/**********footer Start***************/
+.footer_bg{
+	background-color: #424242;
+	overflow: hidden;
+}
+#footer p{
+	color:#f9f9f9;
+	padding: 20px;
+	text-align: center;
+	font-family: sans-serif;
+}
+
+
+
+/**********footer end***************/
